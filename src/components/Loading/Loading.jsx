@@ -1,9 +1,9 @@
 import React from "react";
-
+import "./Loading.css";
 const Loading = () => {
   return (
-    <div className="text-4xl font-semibold flex justify-center items-center mt-36">
-      Loading...
+    <div className="flex justify-center items-center pt-52 ">
+      <div className="loader "></div>
     </div>
   );
 };
